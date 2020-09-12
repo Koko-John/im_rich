@@ -23,12 +23,23 @@ class MyApp extends StatelessWidget {
                     backgroundImage: AssetImage('assets/purple.jpg'),
                   ),
                   Text(
-                    'Purple',
+                    'John Marea',
                     style: TextStyle(
+                      fontFamily: 'Pacifico',
                       fontSize: 40.0,
-                      color: Colors.white
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
                     ),
-                  )
+                  ),
+                  Text(
+                  'FLUTTER DEVELOPER',
+                  style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    color: Colors.deepPurpleAccent,
+                    fontSize: 20.0,
+                    letterSpacing: 2.5,
+                    ),
+                  ),
                 ],
               ),
             ),
